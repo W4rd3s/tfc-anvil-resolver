@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+  width: 100vw;
+  @apply bg-gray-950 text-white;
+}
+
+@layer components {
+  .btn {
+    @apply rounded-md focus:outline-none disabled:opacity-50 p-1 shadow hover:shadow-gray-500 active:shadow-gray-700 shadow-gray-400;
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .bg-action-red {
+    background-color: #890202;
+  }
+
+  .bg-action-green {
+    background-color: #337336;
+  }
+}
