@@ -114,7 +114,7 @@ export default function Home() {
           </div>
           {lastAction.length > 0 && (
             <div className="flex items-center gap-2 rounded-md border border-solid border-gray-600 bg-gray-800 p-2">
-              {lastAction.map((action, index) => (
+              {lastAction.toReversed().map((action, index) => (
                 <>
                   {!!action && (
                     <Image
