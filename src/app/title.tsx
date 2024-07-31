@@ -3,7 +3,7 @@ const myFont = localFont({ src: "./Minecrafter.Alt.ttf" });
 
 export default function Title() {
   return (
-    <div className="flex flex-col gap-4 items-center text-gray-300 mb-8">
+    <div className="flex flex-col gap-4 items-center text-gray-300">
       <h1 className={`${myFont.className} text-5xl text-center`}>
         TerraFirmaCraft
       </h1>
